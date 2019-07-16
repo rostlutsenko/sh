@@ -561,6 +561,7 @@ footer {
 
 .breadcrumb li {
     margin: 0 .25rem 0 0;
+    display: inherit;
 }
 
 .breadcrumb li::after {

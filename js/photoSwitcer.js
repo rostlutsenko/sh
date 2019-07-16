@@ -19,7 +19,7 @@ thumbnails.addEventListener('click', function(e){
         ul.removeChild(e.target.parentNode);
 
         productImg.classList.add('product__img');
-        productImg.setAttribute('src', 'img/' + folder + '/' + clickedImg + '.png');
+        productImg.setAttribute('src', '../img/' + folder + '/' + clickedImg + '.png');
         productImg.setAttribute('data', clickedImg);
         productImg.setAttribute('data-folder', folder);
         productImg.setAttribute('alt', 'converse');
@@ -28,7 +28,7 @@ thumbnails.addEventListener('click', function(e){
 
         thumbnail.classList.add('thumbnail');
         thumbnailImg.classList.add('thumbnail__img');
-        thumbnailImg.setAttribute('src', 'img/' + folder + '/' + currentImg + '.png');
+        thumbnailImg.setAttribute('src', '../img/' + folder + '/' + currentImg + '.png');
         thumbnailImg.setAttribute('data', currentImg);
         thumbnailImg.setAttribute('data-folder', folder);
         thumbnailImg.setAttribute('alt', 'converse');
